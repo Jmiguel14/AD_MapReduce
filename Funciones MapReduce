@@ -1,0 +1,98 @@
+#vista1
+#La siguiente vista muestra el id de cada documento y un numero 1
+
+function (doc) {
+  emit(doc._id, 1);
+}
+
+#vista2
+#La siguiente vista muestra el color y el tipo dentro del documento
+
+function (doc) {
+      emit(doc.color, doc.type);
+}
+
+#vista3
+#La siguiente vista muestra el codigo del color en rgba y hexadecimal
+
+function (doc) {
+  emit(doc.code,doc.color);
+}
+
+#vista4
+#La siguiente vista muestra los valores que estan dentro de code con su respectivo color
+
+function (doc) {
+  if (doc.code){
+    for (var i in doc.code){
+      emit(doc.code[i], doc.color);
+    }
+  }
+}
+
+#vista5
+#La siguiente vista muestra los valores que estan dentro de code con su tipo de color respectivo
+
+function (doc) {
+  if (doc.code){
+    for (var i in doc.code){
+      emit(doc.code[i], doc.type);
+    }
+  }
+}
+
+#vista6
+#La siguiente vista muestra el color con la categorua respectiva
+
+function (doc) {
+        emit(doc.color, doc.category);
+}
+
+#vista7
+#La siguiente vista muestra los valores dentro de code con el numero 2 
+
+function (doc) {
+  if (doc.code){
+    for (var i in doc.code){
+      emit(doc.code[i], 2);
+    }
+  }
+}
+
+#vista8
+#La siguiente vista muestra unicamente el nombre de color "light blue"
+
+function (doc) {
+  if(doc.color.indexOf("light blue")>-1)
+  {
+    emit(doc.color);
+  }
+}
+
+#vista9
+#La siguiente vista muestra los valores dentro de code con CUSTOM
+
+function (doc) {
+  if (doc.code){
+    for (var i in doc.code){
+      emit(doc.code[i], 2);
+    }
+  }
+}
+
+function (keys, values, rereduce) {
+  if (rereduce) {
+    return sum(values);
+  } else {
+    return values.length;
+  }
+}
+
+#vista10
+#La siguiente vista muestra el nombre del color con CUSTOM
+
+function (doc) {
+  if (doc.color){
+    emit(doc.color);
+  }
+}
