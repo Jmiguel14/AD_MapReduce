@@ -1,0 +1,178 @@
+#Documento1
+{
+  "_id": "b3e78d7ceacfa827e0a23bc3690054d6",
+  "_rev": "1-235586e51db070e1ff07ca92809cb5db",
+  "color": "black",
+  "category": "hue",
+  "type": "primary",
+  "code": {
+    "rgba": [
+      255,
+      255,
+      255,
+      1
+    ],
+    "hex": "#000"
+  }
+}
+
+#Documento2
+{
+  "_id": "b3e78d7ceacfa827e0a23bc369007f75",
+  "_rev": "1-4ff57749fc27933b9bdaf6e6b15c65ce",
+  "color": "white",
+  "category": "value",
+  "code": {
+    "rgba": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "hex": "#FFF"
+  }
+}
+
+#Documento3
+{
+  "_id": "b3e78d7ceacfa827e0a23bc369009329",
+  "_rev": "1-3a80cc6e199cda7db72c3729f62ebf38",
+  "color": "red",
+  "category": "hue",
+  "type": "primary",
+  "code": {
+    "rgba": [
+      255,
+      0,
+      0,
+      1
+    ],
+    "hex": "#FF0"
+  }
+}
+
+#Documento4
+{
+  "_id": "b3e78d7ceacfa827e0a23bc369009ad6",
+  "_rev": "1-f7844345b50dedefb3f76a4920c84192",
+  "color": "blue",
+  "category": "hue",
+  "type": "primary",
+  "code": {
+    "rgba": [
+      0,
+      0,
+      255,
+      1
+    ],
+    "hex": "#00F"
+  }
+}
+
+#Documento5
+{
+  "_id": "b3e78d7ceacfa827e0a23bc36900b19b",
+  "_rev": "3-4d55b8598a0b9fcda2281f5537b75879",
+  "color": "yellow",
+  "category": "hue",
+  "type": "primary",
+  "code": {
+    "rgba": [
+      255,
+      255,
+      0,
+      1
+    ],
+    "hex": "#EFE81E"
+  }
+}
+
+#Documento6
+{
+  "_id": "b3e78d7ceacfa827e0a23bc36900c4c2",
+  "_rev": "1-35849513f85e846d6b92e4639dc508cd",
+  "color": "green",
+  "category": "hue",
+  "type": "secondary",
+  "code": {
+    "rgba": [
+      0,
+      255,
+      0,
+      1
+    ],
+    "hex": "#0F0"
+  }
+}
+
+#Documento7
+{
+  "_id": "b3e78d7ceacfa827e0a23bc36900e6a9",
+  "_rev": "1-297b1d3cd7cf1b448a256810c6e28178",
+  "color": "light blue",
+  "category": "hue",
+  "type": "secundary",
+  "code": {
+    "rgba": [
+      114,
+      242,
+      242,
+      1
+    ],
+    "hex": "#72F2F2"
+  }
+}
+
+#Documento8
+{
+  "_id": "b3e78d7ceacfa827e0a23bc369010a63",
+  "_rev": "1-a019387a7cabedd4b988da108042139f",
+  "color": "orange",
+  "category": "hue",
+  "type": "secundary",
+  "code": {
+    "rgba": [
+      242,
+      116,
+      12,
+      1
+    ],
+    "hex": "#F2740C"
+  }
+}
+
+#Documento9
+{
+  "_id": "b3e78d7ceacfa827e0a23bc36901215d",
+  "_rev": "1-f3ced3c43a628d61e90873686716ffdb",
+  "color": "purple",
+  "category": "hue",
+  "type": "secundary",
+  "code": {
+    "rgba": [
+      170,
+      20,
+      240,
+      1
+    ],
+    "hex": "#AA14F0"
+  }
+}
+
+#Documento10
+{
+  "_id": "b3e78d7ceacfa827e0a23bc369012d83",
+  "_rev": "1-2a75c54b8a1b8d1839985657cf867135",
+  "color": "pink",
+  "category": "hue",
+  "type": "secundary",
+  "code": {
+    "rgba": [
+      239,
+      30,
+      142,
+      1
+    ],
+    "hex": "#EF1E8E"
+  }
+}
